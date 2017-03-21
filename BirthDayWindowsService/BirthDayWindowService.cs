@@ -4,7 +4,6 @@ using System.ServiceProcess;
 using BdayListGenerator;
 using System.Net.Mail;
 using System.Timers;
-using BdayForm;
 
 namespace BirthDayWindowsService
 {

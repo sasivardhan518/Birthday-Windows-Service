@@ -36,16 +36,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="InRhythm.DataAccess">
-      <HintPath>..\..\..\MobileBICode\MobileBI\Release\1.9.6.0\Lib\InRhythm.DataAccess.dll</HintPath>
-    </Reference>
-    <Reference Include="InRhythm.MobileBIFramework.EmailService">
-      <HintPath>..\..\..\MobileBICode\MobileBI\Release\1.9.6.0\Offline\OfflineService\OfflineExportWinService\bin\Debug\InRhythm.MobileBIFramework.EmailService.dll</HintPath>
-    </Reference>
-    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\MobileBICode\MobileBI\Release\1.9.6.0\Web\MobileBI\MobileBIWeb\bin\log4net.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Configuration.Install" />
@@ -89,10 +79,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BdayForm\BdayForm.csproj">
-      <Project>{4c614c03-e215-43e7-b8ef-784735c0b963}</Project>
-      <Name>BdayForm</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BdayListGenerator\BdayListGenerator.csproj">
       <Project>{a595793c-e9ca-4e47-973b-8a25ff1eb4ea}</Project>
       <Name>BdayListGenerator</Name>
